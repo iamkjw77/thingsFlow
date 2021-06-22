@@ -1,0 +1,106 @@
+{
+  "name": "thingsflow",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "styled-reset": "^4.3.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-var": 1,
+      "no-console": "off",
+      "no-plusplus": "off",
+      "no-shadow": "off",
+      "vars-on-top": "off",
+      "no-underscore-dangle": "off",
+      "comma-dangle": "off",
+      "func-names": "off",
+      "prefer-template": "off",
+      "no-nested-ternary": "off",
+      "max-classes-per-file": "off",
+      "consistent-return": "off",
+      "no-restricted-syntax": [
+        "off",
+        "ForOfStatement"
+      ],
+      "prefer-arrow-callback": "error",
+      "require-await": "error",
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ],
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ],
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowTernary": true,
+          "allowShortCircuit": true,
+          "allowTaggedTemplates": true
+        }
+      ],
+      "import/no-anonymous-default-export": "off",
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 110,
+          "ignoreComments": true,
+          "ignoreStrings": true,
+          "ignoreTemplateLiterals": true
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.6.0",
+    "axios": "^0.21.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3"
+  }
+}
